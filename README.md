@@ -1,0 +1,1 @@
+This code demonstrates a common error in Scala: using `null.asInstanceOf[T]` for default constructor arguments.  This approach can cause runtime `NullPointerExceptions` if `T` isn't a nullable type.  The solution showcases safe ways to handle nullable types and default values.
